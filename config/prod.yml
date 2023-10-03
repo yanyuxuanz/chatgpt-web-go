@@ -1,0 +1,15 @@
+port: 8899
+
+db:
+  type: mysql
+  host: 127.0.0.1:3306
+  hostR1: 127.0.0.1:3306
+  user: root
+  password: root888
+  name: chatgpt_web_new_go
+
+redis:
+  addr: 127.0.0.1:6379
+
+gpt:
+  proxy: # 代理支持 socks5h://x.x.x.x 或者 http://x.x.x.x
